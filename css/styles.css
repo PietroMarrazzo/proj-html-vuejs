@@ -259,7 +259,6 @@ body {
 
 .course img {
     width: 100%;
-    /* height: 100%; */
     transition: all .3s ease;
 }
 
@@ -312,6 +311,7 @@ body {
 /* course hover */
 .course .img-container {
     background-color: #000000;
+    height: 206px;
 }
 
 .course:hover .hover-price{
