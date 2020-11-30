@@ -29,8 +29,12 @@ body {
     flex-wrap: wrap;
 }
 
-.flex-just-between {
+.flex-just-around {
     justify-content: space-around;
+}
+
+.flex-just-between {
+    justify-content: space-between;
 }
 
 /* positions */
