@@ -51,6 +51,9 @@ body {
     font-weight: 700;
 }
 
+.txt-orange {
+    color: #f2b71d;
+}
 
 
 /* HEADER */
@@ -86,9 +89,20 @@ body {
 .jumbo {
     background-image: URL('../img/jumbo.jpg');
     background-size: cover;
-    height: 800px;
+    height: 700px;
 }
+
+.jumbo .container {
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+} 
 
 .jumbo .container .revolution {
     flex-basis: 50%;
+    margin-bottom: 70px;
+}
+
+.jumbo .container .revolution span {
+    font-size: 60px;
 }
