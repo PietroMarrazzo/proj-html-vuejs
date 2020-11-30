@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #252627;
 }
 
@@ -119,19 +119,20 @@ body {
 } 
 
 .jumbo .container .revolution {
-    flex-basis: 50%;
+    flex-basis: 550px;
     margin-bottom: 120px;
     margin-right: 100px;
 }
 
 .jumbo .container .revolution span {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .jumbo .container .revolution p {
     line-height: 30px;
-    font-size: 18px;
-    padding-top: 15px;
+    font-size: 17px;
+    padding-top: 20px;
+    color: #6b6b66;
 }
 
 .jumbo .limited-sales {
@@ -160,11 +161,14 @@ body {
 .limited-sales .sales input {
     padding-left: 20px;
     margin-top: 30px;
-    width: 450px;
+    width: 480px;
     height: 50px;
     border-radius: 100px;
     border: none;
-
+    -webkit-box-shadow: -2px 5px 4px -6px #000000;
+    -moz-box-shadow: -2px 5px 4px -6px #000000;
+    -o-box-shadow: -2px 5px 4px -6px #000000;
+    box-shadow: -2px 5px 4px -6px #000000;
 }
 
 .limited-sales .sales .btn-submit {
@@ -178,7 +182,44 @@ body {
     color: #e4e7e7;
 }
 
-/* timer */
-.limited-sales .countdown-sales {
+.limited-sales .sales .btn-submit:hover {
+    cursor: pointer;
 }
 
+
+/* timer */
+.limited-sales .countdown-sales {
+    margin-right: 70px;
+}
+
+.limited-sales .countdown-sales .count {
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+
+/* info doe banner */
+.introduction {
+    margin-top: 180px;
+}
+
+.doe {
+    width: 35%;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.doe .sign {
+    margin: 40px auto;
+    width: 200px;
+}
+
+.info-doe {
+    width: 50%;
+}
+
+.info-doe p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #6b6b66;
+}
