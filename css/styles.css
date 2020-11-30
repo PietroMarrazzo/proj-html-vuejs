@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 1400px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -70,4 +70,25 @@ body {
 
 .header-nav ul .social-info {
    padding-left: 20px; 
+}
+
+.header-nav .info-list li:last-child {
+    padding-right: 70px;
+}
+
+/* header hover */
+.header-nav ul .item-info:hover {
+    cursor: pointer;
+}
+
+
+/* MAIN */
+.jumbo {
+    background-image: URL('../img/jumbo.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbo .container .revolution {
+    flex-basis: 50%;
 }
