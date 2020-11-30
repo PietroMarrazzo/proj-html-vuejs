@@ -55,6 +55,10 @@ body {
     z-index: 1;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 /* text */
 .bold {
     font-weight: 700;
@@ -239,7 +243,7 @@ body {
 }
 
 .course {
-    flex-basis: 30%;
+    flex-basis: 32%;
     text-align: center;
     margin-bottom: 20px;
     background-color: white;
@@ -254,6 +258,7 @@ body {
 
 .course img {
     width: 100%;
+    transition: all .3s ease;
 }
 
 .course h3 {
@@ -280,4 +285,37 @@ body {
 
 .course .info-course i {
     padding-right: 8px;
+}
+
+.course .special-offer {
+    padding: 3px 8px;
+    background-color: #f2b71d;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    top: 10px;
+    right: 10px;
+}
+
+.course .hover-price {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+}
+
+/* course hover */
+.course .img-container {
+    background-color: #000000;
+}
+
+.course:hover .hover-price{
+    opacity: 1;
+}
+
+.course:hover img {
+    opacity: .6;
 }
