@@ -9,8 +9,14 @@ body {
     color: black;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 
 /* UTILITIES */
+/* flex */
 .d-flex {
     display: flex;
 }
@@ -23,6 +29,11 @@ body {
     flex-wrap: wrap;
 }
 
+.flex-just-between {
+    justify-content: space-around;
+}
+
+/* positions */
 .p-relative {
     position: relative;
 }
@@ -30,3 +41,9 @@ body {
 .p-absolute {
     position: absolute;
 }
+
+/* text */
+.bold {
+    font-weight: 700;
+}
+
