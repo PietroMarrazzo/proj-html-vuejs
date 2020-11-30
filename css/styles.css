@@ -223,3 +223,10 @@ body {
     line-height: 40px;
     color: #6b6b66;
 }
+
+
+/* courses */
+.course {
+    flex-basis: 30%;
+    text-align: center;
+}
