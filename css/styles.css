@@ -85,10 +85,14 @@ body {
 }
 
 
+
 /* MAIN */
+
+/* jumbo section */
 .jumbo {
     background-image: URL('../img/jumbo.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 700px;
 }
 
@@ -100,9 +104,26 @@ body {
 
 .jumbo .container .revolution {
     flex-basis: 50%;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
+    margin-right: 100px;
 }
 
 .jumbo .container .revolution span {
-    font-size: 60px;
+    font-size: 65px;
+}
+
+.jumbo .container .revolution p {
+    line-height: 30px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.jumbo .limited-sales {
+    background-color: #f2b71d;
+    width: 1200px;
+    height: 200px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 55px);
+    border-radius: 10px;
 }
