@@ -149,19 +149,26 @@ body {
     align-items: center;
 }
 
+.limited-sales .sales {
+    padding-left: 60px;
+}
+
 .limited-sales .sales h2 {
     font-size: 30px;
 }
 
 .limited-sales .sales input {
     padding-left: 20px;
+    margin-top: 30px;
     width: 450px;
     height: 50px;
     border-radius: 100px;
     border: none;
+
 }
 
 .limited-sales .sales .btn-submit {
+    margin-top: 30px;
     width: 120px;
     height: 50px;
     border-radius: 100px;
@@ -171,8 +178,7 @@ body {
     color: #e4e7e7;
 }
 
-
+/* timer */
 .limited-sales .countdown-sales {
 }
-
 
