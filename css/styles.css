@@ -569,3 +569,7 @@ body {
     font-size: 22px;
     padding-right: 15px;
 }
+
+.footer-nav .info-footer #pages {
+    height: 150px;
+}
