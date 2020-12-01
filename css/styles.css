@@ -467,3 +467,34 @@ body {
     color: white;
     transition: all .1s ease-in-out;
 }
+
+
+/* number banner */
+.counter-bg {
+    background-image: url(../img/counter-1919x1101.jpg);
+    background-position-y: 10%;
+    height: 500px;
+}
+
+.counter-container {
+    height: 100%;
+    align-items: center;
+}
+
+.counter-container .counter {
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-container .counter img {
+    padding-right: 20px;
+}
+
+.counter-container .counter h2 {
+    color: #f3cb2b;
+    font-size: 38px;
+}
+
+.counter-container .counter h3 {
+    font-weight: 400;
+}
