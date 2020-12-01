@@ -503,7 +503,7 @@ body {
 /* slider students */
 .slider-students-container {
     width: 600px;
-    height: 700px;
+    height: 500px;
     margin: 100px auto 40px;
 }
 
@@ -532,4 +532,17 @@ body {
 .slider-students-container i {
     cursor: pointer;
 
+}
+
+.slider-students-container p {
+    padding-top: 60px;
+    opacity: .7;
+    line-height: 30px;
+}
+
+
+/* FOOTER */
+.footer-bg {
+    background-color: #ebb024;
+    height: 300px;
 }
