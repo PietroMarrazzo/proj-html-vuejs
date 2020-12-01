@@ -432,13 +432,14 @@ body {
     left: 0;
     top: 0;
     background-color: #f2b71d;
-    transition: all .5s ease;   
+    transition: all .2s ease;   
 }
 
-.why-info .why-info-box img {
+.why-info .why-info-box i {
     padding: 50px 35px;
     color: #f2b71d;
-    transition: all .1s ease-in-out;
+    font-size: 30px;
+    transition: all .2s ease-in-out;
 }
 
 .why-info .why-info-box .info-txt {
@@ -463,7 +464,7 @@ body {
     width: 100%;
 }
 
-.why-info .why-info-box:hover img {
+.why-info .why-info-box:hover i {
     color: white;
     transition: all .1s ease-in-out;
 }
@@ -486,7 +487,8 @@ body {
     align-items: center;
 }
 
-.counter-container .counter img {
+.counter-container .counter i {
+    font-size: 40px;
     padding-right: 20px;
 }
 
