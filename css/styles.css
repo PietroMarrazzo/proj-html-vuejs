@@ -544,12 +544,11 @@ body {
 /* FOOTER */
 .footer-bg {
     background-color: #ebb024;
-    height: 300px;
 }
 
 .footer-nav .info-footer {
     margin-top: 40px;
-    width: 22%;
+    width: 20%;
 }
 
 .footer-nav .info-footer ul:not(#pages) {
@@ -557,7 +556,7 @@ body {
 }
 
 .footer-nav .info-footer h3 {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -572,4 +571,10 @@ body {
 
 .footer-nav .info-footer #pages {
     height: 150px;
+}
+
+
+.footer-nav .info-footer .info-list img {
+    height: 80px;
+    padding-right: 20px;
 }
