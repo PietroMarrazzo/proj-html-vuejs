@@ -552,7 +552,7 @@ body {
     width: 22%;
 }
 
-.footer-nav .info-footer ul {
+.footer-nav .info-footer ul:not(#pages) {
     list-style: none;
 }
 
