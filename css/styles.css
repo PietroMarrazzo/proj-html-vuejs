@@ -472,7 +472,7 @@ body {
 /* number banner */
 .counter-bg {
     background-image: url(../img/counter-1919x1101.jpg);
-    background-position-y: 10%;
+    background-position-y: -10px;
     height: 500px;
 }
 
@@ -497,4 +497,39 @@ body {
 
 .counter-container .counter h3 {
     font-weight: 400;
+}
+
+
+/* slider students */
+.slider-students-container {
+    width: 600px;
+    height: 700px;
+    margin: 100px auto 40px;
+}
+
+.slider-students-container h2 {
+    font-size: 50px;
+}
+
+.slider-students-container .slider {
+    margin-top: 90px;
+}
+
+.slider-students-container .photo-sx {
+    padding-left: 100px;
+}
+
+.slider-students-container .photo-dx {
+    padding-right: 100px;
+}
+
+.slider-students-container .photo-sx ,
+.slider-students-container .photo-dx,
+.slider-students-container .photo-central  {
+    cursor: pointer;
+}
+
+.slider-students-container i {
+    cursor: pointer;
+
 }
