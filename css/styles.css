@@ -406,3 +406,64 @@ body {
     bottom: 0;
     left: 0;
 }
+
+
+/* why-me */
+.why-me {
+    margin: 70px 0px 60px;
+}
+
+.why-me h2 {
+    font-size: 50px;
+}
+
+.why-info .why-info-box {
+    width: 48%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 6px 48px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 48px -30px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 48px -30px rgba(0,0,0,0.75);
+    transition: all .1s ease-in-out;
+}
+
+.why-info .why-info-box .barra-hover {
+    height: 100%;
+    width: 5px;
+    left: 0;
+    top: 0;
+    background-color: #f2b71d;
+    transition: all .5s ease;   
+}
+
+.why-info .why-info-box img {
+    padding: 50px 35px;
+    color: #f2b71d;
+    transition: all .1s ease-in-out;
+}
+
+.why-info .why-info-box .info-txt {
+    padding-top: 55px;
+}
+
+.why-info .why-info-box .info-txt h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.why-info .why-info-box .info-txt p {
+    font-size: 16px;
+    line-height: 28px;
+    opacity: .5;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+/* effetto hover info-box */
+.why-info .why-info-box:hover .barra-hover {
+    width: 100%;
+}
+
+.why-info .why-info-box:hover img {
+    color: white;
+    transition: all .1s ease-in-out;
+}
