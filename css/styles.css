@@ -546,3 +546,26 @@ body {
     background-color: #ebb024;
     height: 300px;
 }
+
+.footer-nav .info-footer {
+    margin-top: 40px;
+    width: 22%;
+}
+
+.footer-nav .info-footer ul {
+    list-style: none;
+}
+
+.footer-nav .info-footer h3 {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.footer-nav .info-footer .info-list li {
+    padding: 10px 0px;
+}
+
+.footer-nav .info-footer .info-list li .social-list i {
+    font-size: 22px;
+    padding-right: 15px;
+}
