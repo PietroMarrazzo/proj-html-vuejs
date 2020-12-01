@@ -354,11 +354,11 @@ body {
 
 
 /* masterbook */
-/* .book-bg::after{
-    content: "";
-    display: table;
-    clear: both;
-} */
+.book-bg {
+    background-image: url(../img/slider_1-1917x607-1914x606.jpg);
+    background-size: cover;
+    height: 500px;
+}
 
 .book-bg .box-sx {
     justify-content: flex-end;
@@ -366,6 +366,7 @@ body {
 }
 
 .book-bg .order-amazon {
+    margin-top: 20px;
     width: 65%;
     text-align: center;
     justify-content: center;
@@ -378,7 +379,30 @@ body {
     font-size: 34px;
 }
 
+.book-bg .order-amazon h3 {
+    padding-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.book-bg .order-amazon img {
+    margin-top: 40px;
+    width: 200px;
+}
+
+.book-bg .order-amazon img:hover {
+    cursor: pointer;
+}
 
 .book-bg .book-img {
     width: 50%;
+}
+
+.book-bg .book-img img {
+    height: 440px;
+    bottom: 0;
+    left: 0;
 }
