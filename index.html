@@ -27,10 +27,12 @@
             <div class="link-list d-flex flex-just-between">
                 <ul class="info-list d-flex">
                     <!-- li prova, ciclato con v-for -->
-                    <li v-for="item in links">
+                    <li v-for="item in links" class="info-link p-relative">
                         <h3>
                             {{ item }}
                         </h3>
+                        <div class="bar-orange-header hidden p-absolute">
+                        </div>
                     </li>
                 </ul>
                 <ul class="social-list d-flex">
