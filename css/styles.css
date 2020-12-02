@@ -114,11 +114,24 @@ body {
     margin-right: 70px;
 }
 
+.new-info {
+    background-color: red;
+    color: white;
+    padding: 1px 2px;
+    border-radius: 2px;
+    top: -10px;
+    right: 0;
+}
+
+.new-info:nth-child(3) {
+    opacity: 1;
+}
+
 /* header hover */
 .header-nav ul .item-info:hover {
     cursor: pointer;
 }
- 
+
 .bar-orange-header {
     background-color: #f2b71d;
     height: 3px;
@@ -128,9 +141,15 @@ body {
     transform: translateX(-15%);
 }
 
+
+
 .header-nav ul .info-link:hover .bar-orange-header {
     opacity: 1;
 }
+
+/* .header-nav ul .info-link:nth-child(3):hover .new-info {
+    opacity: 1;
+} */
 
 
 /* MAIN */

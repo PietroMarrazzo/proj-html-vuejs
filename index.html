@@ -27,11 +27,16 @@
             <div class="link-list d-flex flex-just-between">
                 <ul class="info-list d-flex">
                     <!-- li prova, ciclato con v-for -->
-                    <li v-for="item in links" class="info-link p-relative">
+                    <li v-for="(item, index) in links" class="info-link p-relative">
                         <h3>
                             {{ item }}
                         </h3>
                         <div class="bar-orange-header hidden p-absolute">
+                        </div>
+
+                        <!-- new etiquette -->
+                        <div v-if="index == 2" class="new-info p-absolute">
+                            <h6>New</h6>
                         </div>
                     </li>
                 </ul>
