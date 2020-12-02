@@ -31,5 +31,19 @@ const app = new Vue ({
                 "links": 'fab fa-twitter social-info',
             },            
         ],
+
+        // latest blogs
+        blogs: [
+            {
+                "image": 'photo-1490376840453-5f616fbebe5b-150x150.jpeg',
+                "title":  'Our main target is to "Developing yourself as a leader"',
+                "date": '- August 9, 2018',
+            },
+            {
+                "image": 'photo-1517520287167-4bbf64a00d66-150x150.jpeg',
+                "title":  'Those other college Expense you aren\'t thinking about',
+                "date": '- June 3, 2015',
+            }
+        ]
     },
 })
