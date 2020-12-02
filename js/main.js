@@ -80,16 +80,25 @@ const app = new Vue ({
         imagesStudents: [
             {
                 "image": '2-100x100.jpg',
-                "comment": 'lorem lafamlfamfa afafl  l alflf',
+                "comment": 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             },
             {
                 "image": '1-100x100.jpg',
-                "comment": 'lorem ll afa mml ml fmla<fsn bpafba afafl  l alflf',
+                "comment": 'borem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             },
             {
                 "image": '4-100x100.jpg',
-                "comment": 'lorem af fsg gdhjn estgexzd afafl  l alflf',
+                "comment": 'clorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             }
-        ]
+        ],
+
+
+
+
+        methods: {
+            setImage(index){
+                this.indexImage = index;
+            },
+        },
     },
 })

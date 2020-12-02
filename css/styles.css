@@ -80,6 +80,10 @@ body {
     text-align: center;
 }
 
+.ul-nostyle {
+    list-style: none;
+}
+
 /* HEADER */
 .header-nav {
     margin-top: 30px;
@@ -560,24 +564,37 @@ body {
     align-items: center;
 }
 
-.slider-students-container .slider div:nth-child(2) img {
-    margin-left: 70px;
+
+.slider ul li:first-child {
+    margin-right: 20px;
 }
 
-.slider-students-container .slider div:nth-child(4) img {
-    margin-right: 70px;
+.slider ul li:last-child {
+    margin-left: 20px;
 }
+
 
 .slider-students-container .photo img {
     cursor: pointer;
     border-radius: 100px; 
     height: 100px;
+    transition: all .2s;
 }
 
+/* classe al click */
+
+
+
+.slider-students-container .photo img:hover {
+    transform: scale(1.1);
+}
+
+.slider-students-container .photo img:focus {
+    transform: scale(1.1);
+}
 
 .slider-students-container i {
     cursor: pointer;
-
 }
 
 .slider-students-container p {

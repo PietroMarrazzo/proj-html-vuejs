@@ -407,19 +407,16 @@
                 
                 <div class="slider d-flex flex-just-between">
                     <i class="fas fa-arrow-left"></i>
-                    <div class="photo">
-                        <img src="./img/4-100x100.jpg" alt="">
-                    </div>
-                    <div class="photo">
-                        <img src="./img/2-100x100.jpg" alt="">
-                    </div>
-                    <div class="photo">
-                        <img src="./img/1-100x100.jpg" alt="">
-                    </div>
+                    <ul class="d-flex ul-nostyle">
+                        <li v-for="(student, index) in imagesStudents" class="photo">
+                            <img @click="setImage(index)"
+                                 :src="`./img/${student.image}`" alt="">
+                        </li>
+                    </ul>
                     <i class="fas fa-arrow-right"></i>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.
+                    {{ imagesStudents[indexImage].comment }}
                 </p>
             </div>
         </div>
