@@ -186,7 +186,7 @@ body {
 
 .jumbo .limited-sales {
     background-color: #f2b71d;
-    width: 1200px;
+    width: 1300px;
     height: 200px;
     bottom: 0px;
     left: 50%;
@@ -556,22 +556,24 @@ body {
 }
 
 .slider-students-container .slider {
-    margin-top: 90px;
+    margin-top: 70px;
+    align-items: center;
 }
 
-.slider-students-container .photo-sx {
-    padding-left: 100px;
+.slider-students-container .slider div:nth-child(2) img {
+    margin-left: 70px;
 }
 
-.slider-students-container .photo-dx {
-    padding-right: 100px;
+.slider-students-container .slider div:nth-child(4) img {
+    margin-right: 70px;
 }
 
-.slider-students-container .photo-sx ,
-.slider-students-container .photo-dx,
-.slider-students-container .photo-central  {
+.slider-students-container .photo img {
     cursor: pointer;
+    border-radius: 100px; 
+    height: 100px;
 }
+
 
 .slider-students-container i {
     cursor: pointer;

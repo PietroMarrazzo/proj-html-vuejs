@@ -66,12 +66,30 @@ const app = new Vue ({
         //         "email_info": 'info@masterstudy.com',
         //     }           
         // ],
-        
+
         // contacts
         address: 'USA, California 20, First Avenue, California',
         telephoneInfo: '+1 230 203 202',
         faxInfo: '+1 230 203 243',
         emailInfo: 'info@masterstudy.com',
 
+
+
+        // slider students
+        indexImage: 0,
+        imagesStudents: [
+            {
+                "image": '2-100x100.jpg',
+                "comment": 'lorem lafamlfamfa afafl  l alflf',
+            },
+            {
+                "image": '1-100x100.jpg',
+                "comment": 'lorem ll afa mml ml fmla<fsn bpafba afafl  l alflf',
+            },
+            {
+                "image": '4-100x100.jpg',
+                "comment": 'lorem af fsg gdhjn estgexzd afafl  l alflf',
+            }
+        ]
     },
 })
