@@ -27,25 +27,16 @@
             <div class="link-list d-flex flex-just-between">
                 <ul class="info-list d-flex">
                     <!-- li prova, va ciclato con v-for -->
-                    <li class="item-info"> prova </li>
-                    <li class="item-info"> prova </li>
-                    <li class="item-info"> prova </li>
-                    <li class="item-info"> prova </li>
-                    <li class="item-info"> prova </li>
+                    <li v-for="item in links">
+                        <h3>
+                            {{ item }}
+                        </h3>
+                    </li>
                 </ul>
                 <ul class="social-list d-flex">
                     <!-- social list da ciclare con v-for -->
-                    <li>
-                        <a href=""><i class="fab fa-facebook-square social-info"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-facebook-square social-info"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-facebook-square social-info"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-facebook-square social-info"></i></a>
+                    <li v-for="social in socials">
+                        <a href=""><i v-bind:class="[social.facebook]"></i></a>
                     </li>
                 </ul>
             </div>
@@ -348,7 +339,7 @@
                 </div>  
             </div>
             <!-- counter banner -->
-            <div class="counter-bg ">
+            <div class="counter-bg">
                 <div class="counter-container container d-flex wrap flex-just-between">
                     <!-- counter learner -->
                     <div class="counter d-flex">
