@@ -14,9 +14,22 @@ const app = new Vue ({
 
         // social list icons
         socials: [
-            { facebook: 'fab fa-facebook-square' },
-            { facebook: 'fab fa-facebook-square' },
-            { facebook: 'fab fa-facebook-square' },
+            // linkedin
+            {
+                "links": 'fab fa-linkedin social-info',
+            },
+            // instagram
+            {
+                "links": 'fab fa-instagram social-info',
+            },
+            // facebook
+            {
+                "links": 'fab fa-facebook social-info',
+            },
+            // twitter
+            {
+                "links": 'fab fa-twitter social-info',
+            },            
         ],
     },
 })

@@ -26,7 +26,7 @@
             <!-- link list -->
             <div class="link-list d-flex flex-just-between">
                 <ul class="info-list d-flex">
-                    <!-- li prova, va ciclato con v-for -->
+                    <!-- li prova, ciclato con v-for -->
                     <li v-for="item in links">
                         <h3>
                             {{ item }}
@@ -34,9 +34,9 @@
                     </li>
                 </ul>
                 <ul class="social-list d-flex">
-                    <!-- social list da ciclare con v-for -->
+                    <!-- social list ciclato con v-for -->
                     <li v-for="social in socials">
-                        <a href=""><i v-bind:class="[social.facebook]"></i></a>
+                        <a href=""><i v-bind:class="[social.links]"></i></a>
                     </li>
                 </ul>
             </div>
@@ -432,9 +432,10 @@
                         <li>
                             <!-- social list -->
                             <ul class="social-list d-flex">
-                                <a href=""><i class="fab fa-facebook-square social-info"></i></a>
-                                <a href=""><i class="fab fa-instagram-square social-info"></i></a>
-                                <a href=""><i class="fab fa-twitter-square social-info"></i></a>
+                                <!-- social list ciclato con v-for -->
+                                <li v-for="social in socials">
+                                    <a href=""><i v-bind:class="[social.links]"></i></a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
