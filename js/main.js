@@ -44,6 +44,34 @@ const app = new Vue ({
                 "title":  'Those other college Expense you aren\'t thinking about',
                 "date": '- June 3, 2015',
             }
-        ]
+        ],
+
+        // pages footer 
+        pages: [
+            'Blog',
+            'Home',
+            'Shortcodes',
+            'Membership',
+            'Courses',
+            'Typography',   
+        ],
+
+        // address
+        // contact: [
+
+        //     {
+        //         "address": 'USA, California 20, First Avenue, California',
+        //         "telephone": '+1 230 203 202',
+        //         "fax": '+1 230 203 243',
+        //         "email_info": 'info@masterstudy.com',
+        //     }           
+        // ],
+        
+        // contacts
+        address: 'USA, California 20, First Avenue, California',
+        telephoneInfo: '+1 230 203 202',
+        faxInfo: '+1 230 203 243',
+        emailInfo: 'info@masterstudy.com',
+
     },
 })

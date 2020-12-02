@@ -448,18 +448,18 @@
                     <ul class="info-list">
                         <li>
                             <p>
-                                USA, California 20, First Avenue, California
+                                {{ address }}
                             </p>
                         </li>
                         <li>
                             <p>
-                                Tel.: +1 230 203 202 <br>
-                                Fax: +1 230 203 243
+                                Tel.: {{ telephoneInfo }} <br>
+                                Fax:  {{ faxInfo }}
                             </p>
                         </li>
                         <li>
                             <p>
-                                info@masterstudy.com
+                                {{ emailInfo }}
                             </p>
                         </li>
                     </ul>
@@ -470,34 +470,9 @@
                     </h3>
                     <!-- pages list footer -->
                     <ul id="pages" class="info-list d-flex flex-col wrap">
-                        <li>
+                        <li  v-for="page in pages">
                             <p>
-                                Blog
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Home
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Shortcodes
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                membership
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Courses
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Typography
+                                {{page}}
                             </p>
                         </li>
                     </ul>

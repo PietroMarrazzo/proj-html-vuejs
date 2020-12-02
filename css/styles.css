@@ -96,7 +96,8 @@ body {
 }
 
 .header-nav ul .social-info {
-   padding-left: 20px; 
+   padding-left: 20px;
+   color: #252627;
 }
 
 .header-nav .info-list li:last-child {
@@ -569,6 +570,7 @@ body {
 .footer-nav .info-footer .info-list li .social-list i {
     font-size: 22px;
     padding-right: 15px;
+    color: #252627;
 }
 
 .footer-nav .info-footer #pages {
