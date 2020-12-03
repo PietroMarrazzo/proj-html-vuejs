@@ -1,5 +1,9 @@
+    // //Plugins
+    // import './plugins/Dayjs';
+
 const app = new Vue ({
     el:'#app',
+
 
     data: {
 
@@ -95,7 +99,7 @@ const app = new Vue ({
 
         // timer
         // countDownDate = new Date().getTime(),
-        countDownDate = dayjs().format('dddd DD')
+        // countDownDate= dayjs().format('dddd DD'),
     },
 
     methods: {
