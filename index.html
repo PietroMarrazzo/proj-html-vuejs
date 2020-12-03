@@ -406,14 +406,17 @@
                 </h2>
                 
                 <div class="slider d-flex flex-just-between">
-                    <i class="fas fa-arrow-left"></i>
+                    <i class="fas fa-arrow-left"
+                       @click="prevImage()" ></i>
                     <ul class="d-flex ul-nostyle">
                         <li v-for="(student, index) in imagesStudents" class="photo">
                             <img @click="setImage(index)"
+                                 :class="['', index == indexImage ? 'active-photo' : '']"
                                  :src="`./img/${student.image}`" alt="">
                         </li>
                     </ul>
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="fas fa-arrow-right"
+                       @click="nextImage()"></i>
                 </div>
                 <p>
                     {{ imagesStudents[indexImage].comment }}

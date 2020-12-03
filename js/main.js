@@ -80,25 +80,41 @@ const app = new Vue ({
         imagesStudents: [
             {
                 "image": '2-100x100.jpg',
-                "comment": 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
+                "comment": 'Sono Gianni e sono super soddisfatto del obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             },
             {
                 "image": '1-100x100.jpg',
-                "comment": 'borem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
+                "comment": 'Mi chiamo Boban e questo corso mi ha cambiato la vita borem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             },
             {
                 "image": '4-100x100.jpg',
-                "comment": 'clorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
+                "comment": 'Susy qui e devo dire che sto slider potevo farlo meglio, ma per ora va bene così. Clorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor veniam sit alias nihil laboriosam repudiandae, earum enim soluta iste officia debitis voluptas, obcaecati, cum consectetur ducimus? Unde, ad vitae.'
             }
         ],
 
 
+        // timer
+        // countDownDate = new Date().getTime(),
+        countDownDate = dayjs().format('dddd DD')
+    },
 
+    methods: {
+        setImage(index){
+            this.indexImage = index;
+        },
 
-        methods: {
-            setImage(index){
-                this.indexImage = index;
-            },
+        nextImage() {
+            this.indexImage++;
+            if (this.indexImage > this.imagesStudents.length - 1) {
+                this.indexImage = 0;
+            }
+        },
+
+        prevImage() {
+            this.indexImage--;
+            if (this.indexImage < 0) {
+                this.indexImage = this.imagesStudents.length - 1;
+            }
         },
     },
 })

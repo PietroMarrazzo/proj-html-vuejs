@@ -582,7 +582,9 @@ body {
 }
 
 /* classe al click */
-
+.active-photo {
+    transform: scale(1.2);
+}
 
 
 .slider-students-container .photo img:hover {
